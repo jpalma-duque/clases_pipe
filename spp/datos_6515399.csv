@@ -1,0 +1,3 @@
+gbifID,species,decimalLatitude,decimalLongitude,eventDate,geometry
+3355282901,Margarella violacea,-54.952576,-67.032399,2021-08-14T17:07:00,POINT (-67.032399 -54.952576)
+3873275504,Margarella violacea,-54.950222,-67.029312,2021-08-14T21:11:00,POINT (-67.029312 -54.950222)
