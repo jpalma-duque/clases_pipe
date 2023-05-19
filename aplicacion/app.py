@@ -10,7 +10,8 @@ def main():
     df = leer_archivos()
 
     especies = df.species.unique()
-    especie = st.selectbox('Selecciona una especie', ['Todas las especies'] + list(especies), index=1)
+    especies.sort()
+    especie = st.multiselect('Selecciona una especie', list(especies), especies[0])
     
     mapa, datos = st.tabs(['Mapa', 'Base de datos'])
     
