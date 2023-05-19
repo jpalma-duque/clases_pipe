@@ -1,2 +1,3 @@
 
 .ipynb_checkpoints/geopandas-checkpoint.ipynb
+*.csv

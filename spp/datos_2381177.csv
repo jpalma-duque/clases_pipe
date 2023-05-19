@@ -1,1 +1,1 @@
-gbifID,species,decimalLatitude,decimalLongitude,eventDate,geometry
+gbifID,species,decimalLatitude,decimalLongitude,phylumKey,classKey,orderKey,familyKey,geodeticDatum,eventDate,geometry
