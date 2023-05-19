@@ -20,7 +20,7 @@ def main():
         sub_df = df.query('species==@especie').copy()
     
     with datos:
-        st.write(sub_df)
+        st.write(sub_df.head())
     
     with mapa:
         fig = graficar_especies(sub_df)
